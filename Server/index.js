@@ -14,10 +14,10 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // Replace with your frontend's URL
+    origin: ["https://again-deploy-test.vercel.app"], // Replace with your frontend's URL
+    method: ["POST", "GET", "PATCH", "DELETE" ],
     credentials: true, // Allow credentials (cookies, authorization headers, etc.)
-  })
-);
+  }));
 
 mongoose
   .connect(process.env.MONGO_URI)
