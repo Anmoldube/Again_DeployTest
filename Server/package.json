@@ -1,15 +1,14 @@
 {
   "name": "cu",
   "version": "1.0.0",
-  "description": "A server-side application",
+  "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "start": "node index.js",
-  "postinstall": "npm rebuild bcrypt --build-from-source"
-}
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "postinstall": "npm rebuild bcrypt --build-from-source"
   },
-  "author": "Your Name",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "antd": "^5.20.2",
