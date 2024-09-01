@@ -1,13 +1,13 @@
 {
   "name": "cu",
   "version": "1.0.0",
-  "description": "",
+  "description": "A server-side application",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "antd": "^5.20.2",
